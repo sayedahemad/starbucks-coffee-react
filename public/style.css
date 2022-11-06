@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  min-height: 10px;
+  background-color: rgba(0, 99, 65, 1);
+}
+.header .head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  display: flex;
+  padding: 1.5rem 6rem;
+}
+.location i {
+  color: rgba(0, 99, 65, 1);
+  margin-right: 0.5rem;
+  font-size: 18px;
+}
+.location p {
+  color: rgb(63, 63, 63);
+}
+.logo {
+  padding: 1rem 6rem;
+}
+.header .nav-item ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.header .nav-item ul li {
+  padding: 0.7rem;
+  font-family: "Gill Sans", sans-serif;
+  letter-spacing: 0.2rem;
+}
+.header .nav-item ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  transition: background-color 0.22s ease, color 0.22s ease;
+}
+.header .nav-item ul li a:hover {
+  color: white;
+  background-color: black;
+  padding: 13px 1px;
+}
+.side-img {
+  background-image: url(./src/pattern_stars.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 270px;
+  width: 200px;
+}
+.container {
+  display: none;
+}
+.nav-item ul li a:hover > .container {
+  display: block;
+}
+
+.banner {
+  background-image: url(./src/register3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 505px;
+}
+.banner1 {
+  background-image: url(./src/monsoon_delights_web_2400X560.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 505px;
+}
+.banner2 {
+  background-image: url(./src//tropical_favourite_web_2400X560.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 505px;
+}
+.banner3 {
+  background-image: url(./src/scoope-banner4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 505px;
+}
+.banner4 {
+  background-image: url(./src/Desktop_Mobile_Order_and_Pay_tcm87-64504.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 505px;
+}
+.banner4:hover {
+  cursor: pointer;
+}
+.banner5 {
+  background-image: url(./src/web_revised_tcm87-72096.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 505px;
+}
+.banner5:hover {
+  cursor: pointer;
+}
+.section {
+  margin-top: 50px;
+}
+.section .product {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section .product .content p {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 1rem;
+  line-height: 1.5rem;
+}
+.section .product .content h2 {
+  font-family: "Gill Sans", sans-serif;
+}
+.section .job {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section .job .content h2 {
+  font-family: "Gill Sans", sans-serif;
+}
+.section .job {
+  margin-top: 50px;
+}
+.section .job .content p {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 1rem;
+  line-height: 1.5rem;
+}
+.social-icon .icons i {
+  font-size: 30px;
+  color: rgb(58, 57, 57);
+  margin: 10px;
+}
+.social-icon .icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f0f0f0;
+  height: 90px;
+  padding-left: 100px;
+}
+.footer {
+  font-family: "Gill Sans", sans-serif;
+}
+.footer .footer-link {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 7rem;
+}
+.footer .footer-link .links {
+  display: flex;
+}
+.footer .footer-link .links .first {
+  margin: 3rem 3rem;
+  line-height: 2rem;
+}
+.footer .footer-link .links .second {
+  margin: 3rem 3rem;
+  line-height: 2rem;
+}
+.footer .footer-link .links .third {
+  margin: 3rem 3rem;
+  line-height: 2rem;
+}
+.footer .footer-link .links .first p a {
+  text-decoration: none;
+  color: #4a4e69;
+}
+.footer .footer-link .links .first p {
+  font-size: 14px;
+}
+.footer .footer-link .links .second p {
+  font-size: 14px;
+}
+.footer .footer-link .links .third p {
+  font-size: 14px;
+}
+.footer .footer-link .links .second p a {
+  text-decoration: none;
+  color: #4a4e69;
+}
+.footer .footer-link .links .third p a {
+  text-decoration: none;
+  color: #4a4e69;
+}
+.footer .footer-link .links h4 {
+  color: #3d3935;
+}
+.footer .footer-link .brand img {
+  width: 50%;
+  padding-top: 25px;
+}
+.footer .lower-links ul {
+  display: flex;
+  padding-left: 150px;
+}
+.footer .lower-links ul li {
+  list-style: none;
+  margin: 5px;
+  color: #4a4e69;
+}
+.footer .last p {
+  color: #4a4e69;
+  padding-left: 155px;
+  font-size: 12px;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+.footer {
+  background-color: #f7f7f7;
+}
